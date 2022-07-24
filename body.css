@@ -1,0 +1,344 @@
+/* .uu{
+    
+    overflow: hidden;
+   display: inline-block;
+    margin: auto;
+    justify-content: center; 
+    /* height: 1500px; */
+    /* animation: img 5s  5s ;*/
+    /* width: 100%;
+} */
+/* .load{
+    animation: slider 2s;
+}
+.silder{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    animation: slider 4s  infinite ;
+}
+@keyframes slider {
+    0%{
+        background-image: url("https://m.media-amazon.com/images/I/61aaV+8FGVL._SX3000_.jpg");
+
+    }
+    50%{
+        background-image: url('C:\HTML\img2.jpg');
+    }
+    100%{
+        background-image: url('C:\HTML\img3.jpg');
+    }
+} */ 
+*{
+    margin: 0;
+    padding: 0;
+}
+.load{
+    animation:slide 70s;
+}
+.silder{
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    width: 1320%;
+    height: 538%;
+    animation:slide 15s  infinite ;
+    background-image: url('img1.jpg');
+    
+}
+background-image{
+    width: 100%;
+}
+@keyframes slide{
+    0%{
+        background-image: url('img1.jpg' );
+        background-size: cover;
+    }
+    20%{
+        background-image: url('img1.jpg');
+        background-size: cover;
+    }
+    20.01%{
+        background-image: url('img2.jpg');
+        background-size: cover;
+    }
+  
+    40%{
+        background-image: url('img2.jpg');
+        background-size: cover;
+    }
+    40.01%{
+        background-image: url('img3.jpg');
+        background-size: cover;
+    }
+  
+    60.%{
+        background-image: url('img3.jpg');
+        background-size: cover;
+    }
+    60.01%{
+        background-image: url('img4.jpg');
+        background-size: cover;
+    }
+  
+    80%{
+        background-image: url('img4.jpg');
+        background-size: cover;
+    }
+    
+    81.01%{
+        background-image: url('img5.jpg');
+        background-size: cover;
+    }
+    
+    100%{
+        background-image: url('img5.jpg');
+        background-size: cover;
+    }
+}
+.kk{
+    background-color: rgb(223, 230, 230);
+    height: 3000px;
+    width: 100%;
+}
+.tt{
+    height:400px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    top: 295px;
+    left: 25px;
+    display: inline-block;
+}
+.bb img{
+    /* width: 100px;
+    height: 130px; */
+    display: inline-block;
+    grid-template-columns: auto auto auto autos;
+    padding: 10px;
+}
+.bb{
+    color: black;
+    display: inline-block;
+}
+.tit{
+    height:400px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    top: 295px;
+    left: 50px;
+    display: inline-block;
+}
+.tiit{
+    height:400px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    top: 295px;
+    left: 85px;
+    display: inline-block;
+}
+.ll{
+    padding: 10px;
+}
+.tiiit{
+    height:400px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    top: 295px;
+    left: 115px;
+    display: inline-block;
+}
+
+.att{
+    height:400px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    top: 321px;
+    left: 25px;
+    display: inline-block;
+}
+.bb img{
+    /* width: 100px;
+    height: 130px; */
+    display: inline-block;
+    grid-template-columns: auto auto auto autos;
+    padding: 10px;
+}
+.bb{
+    color: black;
+    display: inline-block;
+}
+.atit{
+    height:400px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    top: 321px;
+    left: 50px;
+    display: inline-block;
+}
+.atiit{
+    height:400px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    top: 321px;
+    left: 85px;
+    display: inline-block;
+}
+.atiiit{
+    height:400px;
+    width: 350px;
+    background-color: white;
+    position: relative;
+    top: 321px;
+    left: 115px;
+    display: inline-block;
+}
+.bba{
+    height: 500px;
+    width: 100%;
+    background-color: #232F3E;
+}
+
+footer{
+    background-color: rgb(5, 22, 37);
+    position: relative;
+    bottom: 5px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.v{
+    text-align: center;
+    position: relative;
+    bottom : 10px;
+    display: inline-block;
+}
+.vv{
+    text-align: center;
+    position: relative;
+    bottom : 10px;
+    display: inline-block;
+}
+.uu{
+    position: relative;
+    bottom: -117px;
+}
+.v li{
+    list-style-type: none;
+    font-size: 10px;
+}
+.vv p{
+    
+    font-size: 10px;
+}
+.mn  a{
+    text-decoration: none;
+    position: relative;
+    bottom: 1px;
+}
+.mn a:hover{
+  text-decoration: underline;
+}
+
+.Counti {
+    width: 100px;
+    margin-left: 115px;
+    height: 32px;
+    
+    
+    color: white;
+    background-color:#232F3E ;
+    position: relative;
+    bottom: 30px ;
+}
+.lp li{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 13px;
+    /* margin-left: -384px; */
+    
+}
+.an{
+    height: 325px;
+   width: 97%;
+   margin:auto;
+   background-color: white;
+   position: relative;
+    top: 351px;
+    
+}
+.anss{
+    height: 325px;
+   width: 97%;
+   margin:auto;
+   background-color: white;
+   position: relative;
+    top: 90px;
+    
+}
+.anm{
+    display: inline-block;
+}
+.lpo li{
+    position: relative;
+    bottom: -20px;
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 13px;
+    /* margin-left: -384px; */
+    
+}
+.ppt li{
+    
+    list-style-type: none;
+     
+    position: relative;
+    padding: 5px;
+    top: 25px;
+    left: 250px;
+    /* display: inline-block; */
+}
+.pptt li{
+    
+    list-style-type: none;
+    
+    position: relative;
+    padding: 5px;
+    bottom:58px;
+    left: 400px;
+    /* display:inline-block; */
+}
+.ppttt li{
+    
+    list-style-type: none;
+  
+    position: relative;
+    padding: 5px;
+    top: 25px;
+    left: 500px;
+}
+.pptttt li{
+    
+    list-style-type: none;
+     
+    position: relative;
+    padding: 5px;
+    top: 25px;
+    left: 600px;
+}
+.bba hr{
+    border-color: #3c4f66;
+}
+.y{
+    position: relative;
+    top: 30px;
+    left: 580px;
+}

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+.con{
+    overflow:auto;
+}
+header {
+    height: 70px;
+    width: 100vw;
+    background-color: black;
+    display: block;
+    
+}
+/* header{
+    position: fixed;
+   
+} */
+img{
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+img:hover{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+pre{
+    display: inline-block;
+    color: rgb(255, 253, 255);
+    font-family: 'Cabin', sans-serif;
+    
+}
+pre:hover{
+    border: 2px solid rgb(255, 249, 249);
+    border-radius: 10px;
+}
+#Countinents{
+    margin-left:-145px ;
+    display: inline-block;
+    width:50px;
+    height:40px;
+    color:rgb(41, 14, 14);
+    position: relative;
+    bottom: 20px;
+    right:-15%;
+}
+#Countinents:hover{
+    border: 4px solid rgb(206, 129, 14);
+    border-radius: 5px;
+}
+option{
+    color:black;
+}
+input{
+    position: relative;
+    color: black;
+    bottom: 20px;
+    right:-15%;
+    /* display: flex ;
+    justify-content: center;
+    align-items: center; */
+    display: inline-block;
+    width: 600px;
+    height: 40px;
+}
+input:hover{
+    border: 4px solid rgb(206, 129, 14);
+}
+button{
+    padding: 0;
+    display: inline-block;
+   
+    position: relative;
+    bottom: 10px;
+    right:-15%;
+    
+    
+}
+button:hover{
+    border: 4px solid rgb(206, 129, 14);
+    border-radius: 10px;
+}
+img{
+    padding: 0;
+}
+.as{
+    display: inline-block;
+    position: relative;
+    bottom: 9px;
+    right:-18%;
+}
+.hi{
+    height:50px ;
+    display: inline-block;
+    position: relative;
+    bottom: -16px;
+    right:-21%;
+}
+.hi:hover{
+
+    height: 50px;
+}
+.hia{
+    display: inline-block;
+    position: relative;
+    bottom: -16px;
+    right:-23%;
+}
+.ass{
+    display: inline-block;
+    position: relative;
+    left : 372px;
+    font-size: large;
+}
+.sss{
+    display: block;
+    height: 40px;
+    width: 100vw;
+    background-color: rgb(39, 49, 70);
+}
+.ww button{
+    display: inline-block;
+    padding-left: 5px;
+    background-color: rgb(39, 49, 70);
+    position: relative;
+    bottom: -6px;
+    left: 0px;
+    border: 0;
+  }
+.ww button:hover{
+    border: 2px solid white;
+    border-radius: 0px;
+}
+.xx li{
+    padding:0 10px;
+    display:inline-block;
+    position: relative;
+    left: 50px;
+    bottom:15px;
+}
+.xx li:hover{
+    border: 2px solid white;
+    border-radius: 3px;
+}
+.akk{
+    display: inline-block;
+ 
+   
+}
+/* ***********************************************************************************************************************/
+ /* @keyframes img1 {
+    0%{
+        transform: translateY(0vw);
+    }
+    100%{
+        transform: translateY(-100vw);
+    }
+    
+}
+@keyframes img2{
+    
+    0%{
+        transform: translateY(0vw);
+    }
+    100%{
+        transform: translateY(-41vw);
+    }
+    
+}
+@keyframes img3{
+    
+    0%{
+        transform: translateY(0vw);
+    }
+    100%{
+        transform: translateY(-80vw);
+    }
+    
+}
+.img1{
+    transform: translateY(0vw);
+    
+    
+    width: 100%;
+    overflow: hidden;
+   animation: img1 5s ease-out    ;
+
+}
+.img2{
+    transform: translateY(0vw);
+
+    width: 100%;
+    animation: img2 10s 5s  ;
+    animation-delay:10s ;
+}
+.img3{
+    transform: translateY(0vw);
+    width: 100%;
+    animation: img3 10s 10s  ;
+}
+
+.l{
+    background-color: aqua;
+    height: 1000px;
+} 
+
